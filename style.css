@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input,
+.button,
+.timeLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid tomato;
+    margin-bottom: 20px;
+}
+
+.button{
+    background-color: #ff6347;
+    transition-property: background-color box-shadow;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+.button:hover{
+    box-shadow: 0 0 10px #666;
+}
+.button:active{
+    box-shadow: 0 0 0px #666;
+}
